@@ -31,9 +31,9 @@ $font__Ubuntu: 'Ubuntu', sans-serif; // Normal 400, Medium 500, Bold 700
 /* COLORS
 /===================================================== */
 $color__dark:         #333333;
-$color__bright:       #f7f7f2;
+$color__bright:       #ffffff;
 $color__grey:         #b5b5b1;
-$color__green:        #97c475;
+$color__green:        #C8DB00;
 
 
 /* DEFAULTS
@@ -59,7 +59,7 @@ $color__green:        #97c475;
 
   // Nav
   $default__color__nav:         $color__grey;
-  $default__color__nav_active:  $color__dark;
+  $default__color__nav_active:  $color__green;
   $default__color__nav_hover:   $color__green;
   $default__color__nav_spacer:  $color__grey;
 

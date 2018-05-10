@@ -44,4 +44,11 @@
           ?>
           </ul>
         </nav>
+        <div class="phys-locator">
+          <h3>Physician Locator</h3>
+            <select name="phys-locator" form="state-select">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+            </select>
+        </div>
       </div>
