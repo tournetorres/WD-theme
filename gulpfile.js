@@ -23,7 +23,7 @@
 /* SETTINGS
 /===================================================== */
 // local domain used by browsersync
-var browsersync_proxy = "wpseed.vm";
+var browsersync_proxy = "fit-wilson.localhost";
 
 // default asset paths
 var assets = {
