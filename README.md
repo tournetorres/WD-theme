@@ -1,16 +1,3 @@
-<img src="/assets/images/wpseed.png" width="518"/>
-
-**Version 1.3.1** (05.03.2018)
-
-## What is WPSeed?
-WPSeed is a WordPress starter theme following the intention of being able to skip the time-consuming first steps when creating a new theme.
-WPSeed uses a variety of pre-built objects that allow kickstarting any kind of theme. These objects consist of:
-* basic templates
-* basic html/scss structure
-* html/scss/javascript presets and essential functions
-* responsive functionality including viewport-mixins, rem-based content resizing and a animated mobile menu
-* a preset/config scss file managing all colors, fonts and sizes
-
 ## Requirements:
   * Node >= 8.0 ([nodejs.org](https://nodejs.org/))
   * npm >=5.0 (`npm install -g npm@latest` - [npm](https://www.npmjs.com/))
@@ -121,25 +108,3 @@ the two available classes `mobile` and `desktop` perform as followed (with defau
 	// hidden while > 799;
 }
 ```
-
-
-## About
-Author: Flurin Dürst
-
-Contact: [flurin@flurinduerst.ch](mailto:flurin@flurinduerst.ch)
-
-Twitter: [@flurinduerst](https://twitter.com/flurinduerst)
-
-### Contribution
-* Fork it
-* Create your feature branch
-* Commit your changes
-* Push to the branch
-* Create new Pull Request
-
-Feel free to contact me if you have questions or need any advice.
-
-### License
-WPDistillery is released under the MIT Public License.
-
-Note: The "About" section in `README.md` and the author (`@author`) notice in the file-headers shall not be edited or deleted without permission. For Details see [License](LICENSE.md). Thank you.
