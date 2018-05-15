@@ -16,7 +16,7 @@
 
 nav {
   z-index: 210;
-  font-size: 1rem;
+  // font-size: 1rem;
   font-weight: 700;
   line-height: 100%;
   ul {
@@ -27,7 +27,7 @@ nav {
     display: inline-block;
     list-style-type: none;
     font-family: Montserrat-Bold;
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-transform: uppercase;
     color: $color__bright;
     letter-spacing: 0.4px;

@@ -198,9 +198,173 @@ p {
 .footer {
   width: 100vw;
   margin-top: auto;
-  padding: 1.5rem;
+  // padding: 1.5rem;
   font-size: .8rem;
-  color: $color__grey;
+  // color: $color__grey;
   background: $color__bright;
-  box-shadow: $shadow;
+  // box-shadow: $shadow;
+
+    h3 {
+      color: $color__yellow-green;
+      width: 60%;
+      font-size: 2rem;
+      text-align: center;
+      letter-spacing: 0.025rem;
+      margin: 0 auto;
+      font-family: $font__Montserrat;
+      padding: 1.6875rem;
+      line-height: 2.4375rem;
+    }
+
+    &__break {
+      color: $color__dark-green;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    &__form {
+      width: 100%;
+      background: $color__dark-green;
+      margin-top: .5rem;
+      padding: 1.1875rem;
+      // float: left;
+      // position: relative;
+      // height: 2.25rem;
+
+      &-container {
+        // width: 75%;
+        margin: 0 auto;
+        // display: flex;
+        // justify-content: center;
+
+
+      }
+
+      form.wpcf7-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    form.wpcf7-form input {
+      color: $color__darker-green;
+      font-size: .875rem;
+      font-family: $font__Montserrat;
+  }
+
+      p {
+        margin: 0 .6rem;
+      }
+
+      // p:not(:nth-child(2n)) {
+      //   margin-right: 2%;
+      // }
+      // p:last-child {
+      //   clear: both;
+      //   width: 100%;
+      // }
+
+      // p:nth-last-child(2) {
+      //   clear: both;
+      //   width: 100%;
+      // }
+    }
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+  width: 15rem;
+  // margin: 0 .25rem;
+  padding: .25rem;
+  line-height: 1.3rem;
+  // display: block;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  width: auto;
+  background-color: $color__green;
+  font-family: $font__Montserrat;
+  color: $color__bright !important;
+  font-size: 0.875rem !important;
+  text-transform: uppercase;
+  // margin: 0 .25rem;
+  padding: .3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.33rem;
+  // display: block;
+}
+
+input.wpcf7-form-control.wpcf7-text {
+  width: 13rem;
+  line-height: 1.3rem;
+  // margin: 0 .25rem;
+  padding: .25rem;
+  // display: block;
+
+}
+
+input::placeholder {
+  color: $color__grey;
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: center;
+  
+}
+
+div.wpcf7-response-output {
+  margin: 0;
+  padding: 0.5rem .5rem;
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+  display: block;
+  width: 15rem;
+  font-size: .7rem;
+  color: $color__green;
+  margin-left: -.7rem;
+  border: 2px solid $color__green;
+
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+  display: block;
+  width: 15rem;
+  font-size: .7rem;
+  color: $color__green;
+  margin-left: -.7rem;
+  border: 2px solid $color__green;
+
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+  background-color: #a4b309;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  color: $color__darker-green !important;
+  cursor: pointer;
+  box-shadow: $shadow__soft;
+}
+
+/* BUTTONS */
+
+.button {
+  background-color: $color__green;
+  font-family: $font__Montserrat;
+  font-size: 0.875rem;
+
+  &__form {
+    color: $color__bright;
+  }
+
+  &__content {
+
+  }
+}
+
+.button:hover {
+  background-color: #a4b309;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  color: $color__darker-green !important;
+  cursor: pointer;
+  box-shadow: $shadow__soft;
 }

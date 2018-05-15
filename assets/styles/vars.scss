@@ -17,7 +17,7 @@
 
 /* SCALING
 /------------------------*/
-$size:                2vw;          // scales all `rem` based elements
+$size:                1.5vw;          // scales all `rem` based elements
 $size_mobile:         $size * 2.2;  // scaling filter for mobile viewport
 $scaling_breakpoint:  1200px;       // scaling of all `rem` based elements stops here
 $desktop_min:         800px;        // Desktop/Mobile Breakpoint
@@ -26,14 +26,18 @@ $desktop_min:         800px;        // Desktop/Mobile Breakpoint
 /* FONTS
 /===================================================== */
 $font__Ubuntu: 'Ubuntu', sans-serif; // Normal 400, Medium 500, Bold 700
+$font__Montserrat: 'Montserrat-Bold', sans-serif;
 
 
 /* COLORS
 /===================================================== */
 $color__dark:         #333333;
+$color__dark-green: #2E877C;
+$color__darker-green: #004b44;
 $color__bright:       #ffffff;
-$color__grey:         #b5b5b1;
+$color__grey:         #9B9B9B;
 $color__green:        #C8DB00;
+$color__yellow-green:  #B5C24B;
 
 
 /* DEFAULTS
@@ -42,7 +46,7 @@ $color__green:        #C8DB00;
 
   /* Fonts
   /------------------------*/
-  $default__font__name:        $font__Ubuntu;
+  $default__font__name:        $font__Montserrat;
   $default__font__size:        1rem;
   $default__font__line_height: 1.3;
   $default__font__weight:      400;
