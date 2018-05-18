@@ -50,6 +50,9 @@ nav {
       color: $default__color__nav_spacer;
       content: '';
     }
+     ul {
+       display: none;
+     }
   }
 }
 

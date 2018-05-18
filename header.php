@@ -35,12 +35,14 @@
         <nav id="nav_main" class="hiddenmobile">
           <ul>
           <? $frontPageID = get_option('page_on_front') ?>
-          <? wp_list_pages([
-      				'depth' => 1,
-      				'sort_column' => 'menu_order',
-      				'title_li' => '',
-      				'exclude' => $frontPageID
-      			]);
+          <? 
+            wp_nav_menu(
+              array(
+                'menu' => 'Nav2',
+                // 'link_before' => '<span class="screen-reader-text">',
+                // 'link_after' => '</span>',
+              )
+            );
           ?>
           </ul>
         </nav>
