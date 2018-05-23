@@ -12,46 +12,6 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1, user-scalable=no">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-    <style>
-/* Navigation Menu */
-.menu-nav2-container {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    text-align: center;
-}
-.menu-nav2-container li {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    line-height: 1.42857143;
-}
-.menu-nav2-container a {
-    color: #5e5e5e;
-}
-.menu-nav2-container a:hover,
-.menu-nav2-container a:focus {
-    color: #21759b;
-}
-.menu-nav2-container ul.sub-menu,
-.menu-nav2-container div.sub-menu > ul {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 598;
-  width: 100%;
-}
-
-.menu-nav2-container ul li:hover > ul {
-  visibility: visible;
-}
- 
-.menu-nav2-container ul.sub-menu.toggled-on,
-.menu-toggle {
-    display: inline-block;
-}
-</style>
     <!--===== OPEN-GRAPH TAGS =====-->
     <meta property="og:title" content="<? bloginfo('name'); ?>">
     <meta property="og:description" content="<? bloginfo('description'); ?>">
